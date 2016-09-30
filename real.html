@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Steps on github</title>
+</head>
+<style>
+	ol{
+		width:50%;
+	}
+	li{
+		background-color: #ffe6e6;
+		font-style: bold;
+		padding-left: 20px;
+	}
+	button{
+		flood-color: grey;
+		border-radius: 5px;
+		color: black;
+	}
+	br{
+		padding: 10px;
+	}
+	p{
+		font-style: normal;
+	}
+</style>
+<body>
+<h1>This is only file to uploaded</h1>
+<h2>Steps for github</h2>
+<ol>
+	<li><br>create a folder <p>say D:\project\testgit</p></li>
+	<li><br>open git shell <p>if you dont have git shell then run cmd in admistrator mode and type <button disabled> powershell </button> and press enter. it will do the job</p></li>
+	<li><br>command :  <button disabled> cd D:\project\testgit </button> <p>here testgit is the folder containing the project</p></li>
+	<li><br>command :  <button disabled> git init </button> <p>for initialising github</p></li>
+	<li><br>command :  <button disabled> git status </button> <p>shows not added files in red, added files in green</p></li>
+	<li><br>command :  <button disabled> git remote -v </button> <p>shows current remote location</p></li>
+	<li><br>command :  <button disabled> git log </button> <p>shows current commit log</p></li>
+	<li><br>go to <a href="github.com">github.com</a><p>login to github<br>create a new repository</p></li>
+	<li><br>command :  <button disabled> git remote add origin git@github.com:username/repo-name.git </button> <p>this will set the remote path to the repository to the give github-repository-url with origin as alias name. if this shows an error as remote already added then that means we already have a remote url set on the name origin. you can either change the url by using the<br> command :  <button disabled> git remote set-url origin git@github.com:username/repo-name.git </button>  <br>or you can add another remote by changing the alias name as<br> command :  <button disabled> git remote add aliasname git@github.com:username/repo-name.git </button> </p></li>
+	<li><br>command :  <button disabled> git remote -v </button> <p>this will show a fetch link and push link associated with corresponding alias name</p></li>
+	<li><br>command :  <button disabled> git branch </button> <p>this will show the current branch in green followed by a * and other branches if exists. usually current branch will be master as it is the default branch in the github. if you dont have a branch listed then it means you are working only in local and you had not uploaded your project to the repository and which is not an error</p></li>
+	<li><br></li>
+</ol>
+</body>
+</html>

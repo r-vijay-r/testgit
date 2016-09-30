@@ -39,7 +39,9 @@
 	<li><br>command :  <button disabled> git remote add origin git@github.com:username/repo-name.git </button> <p>this will set the remote path to the repository to the give github-repository-url with origin as alias name. if this shows an error as remote already added then that means we already have a remote url set on the name origin. you can either change the url by using the<br> command :  <button disabled> git remote set-url origin git@github.com:username/repo-name.git </button>  <br>or you can add another remote by changing the alias name as<br> command :  <button disabled> git remote add aliasname git@github.com:username/repo-name.git </button> </p></li>
 	<li><br>command :  <button disabled> git remote -v </button> <p>this will show a fetch link and push link associated with corresponding alias name</p></li>
 	<li><br>command :  <button disabled> git branch </button> <p>this will show the current branch in green followed by a * and other branches if exists. usually current branch will be master as it is the default branch in the github. if you dont have a branch listed then it means you are working only in local and you had not uploaded your project to the repository and which is not an error</p></li>
-	<li><br></li>
+	<li><br>command : <button disabled> git add . </button><p>adds all non commited files into added files and ready to commit</p></li>
+	<li><br>command : <button disabled> git commit -am "initial commit" </button><p>commits all added filesand ready to push tothe repository</p></li>
+	<li><br>command : <button disabled> git push origin master </button><p>pushes the project files to the repository</p></li>
 </ol>
 </body>
 </html>
